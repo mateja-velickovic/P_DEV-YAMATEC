@@ -14,3 +14,4 @@ CaféGestion vise à simplifier la gestion quotidienne des cafés en automatisan
 ## Structure du Projet
 
 Le projet est organisé selon la structure Scrum, avec des itérations planifiées, des démos régulières, et des rétrospectives pour améliorer continuellement le processus de développement. La structure des dossiers est la suivante :
+ 
