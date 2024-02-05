@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../images/coffeeBackground.png");
+}
+:root {
+  --main-color: #4f3420;
+  --hover-color: #ffebca;
+  --white: #f1f1f1;
+  --button-color: #783200;
+  --brown-color: #8a3900;
+  --papaya-color: #ffebca;
+  --persian-color: #d09265;
+}
+
+nav ul {
+  background-color: var(--main-color);
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: var(--hover-color);
+  transition: 0.5s ease;
+}
+
+main {
+  width: 70%;
+}
+
+main .coffees {
+  display: flex;
+  grid-template-columns: repeat(4, 0.3fr);
+  display: grid;
+}
+
+main .coffees .box {
+  width: 15rem;
+  text-align: center;
+  color: var(--white);
+  border-radius: 25px;
+  background-color: var(--persian-color);
+  padding-bottom: 20px;
+  margin: 15px;
+}
+
+main .coffees .box .img {
+  background-color: var(--main-color);
+  border-radius: 25px 25px 0px 0px;
+}
+
+main .coffees .box .img p {
+  padding-bottom: 20px;
+}
+
+main .coffees .box img {
+  width: 50%;
+}
+
+main .coffees .box .add {
+  padding: 10px;
+  border-radius: 0px 0px 25px 25px;
+}
+
+main .coffees .box .add a {
+  background-color: var(--brown-color);
+  text-decoration: none;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+}
