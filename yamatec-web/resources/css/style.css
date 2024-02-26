@@ -6,9 +6,11 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-image: url("../images/coffeeBackground.png");
 }
+
 :root {
   --main-color: #4f3420;
   --hover-color: #ffebca;
@@ -45,13 +47,20 @@ nav ul li a:hover {
 }
 
 main {
-  width: 70%;
+  width: 100%;
 }
 
 main .coffees {
   display: flex;
   grid-template-columns: repeat(4, 0.3fr);
   display: grid;
+  width: 65%;
+}
+
+main .selection {
+  display: grid;
+  width: 35%;
+  background-color: red;
 }
 
 main .coffees .box {
