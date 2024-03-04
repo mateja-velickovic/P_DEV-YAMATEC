@@ -9,6 +9,7 @@
 
 body {
   background-image: url("../images/coffeeBackground.png");
+  height: 100vh;
 }
 
 :root {
@@ -48,6 +49,7 @@ nav ul li a:hover {
 
 main {
   width: 100%;
+  display: flex;
 }
 
 main .coffees {
@@ -57,11 +59,33 @@ main .coffees {
   width: 65%;
 }
 
-main .selection {
+main .basketSide {
   display: grid;
   width: 35%;
-  background-color: red;
+  background-color: rgb(179, 179, 179);
+
 }
+
+main .basket {
+  width: 90%;
+  height: 90%;
+  background-color: red;
+  border-radius: 75px;
+  margin: auto;
+}
+
+main .basketTitle {
+  font-size: 65px;
+  text-align: center;
+}
+
+main .selection {
+  background-color: green;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
 
 main .coffees .box {
   width: 15rem;
