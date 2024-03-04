@@ -72,6 +72,7 @@ main .basket {
   background-color: red;
   border-radius: 75px;
   margin: auto;
+  text-align: center;
 }
 
 main .basketTitle {
@@ -80,12 +81,27 @@ main .basketTitle {
 }
 
 main .selection {
+  position: relative;
   background-color: green;
   width: 80%;
-  height: 80%;
+  height: 77%;
   margin: auto;
 }
 
+main .totalPrice {
+  position: absolute;
+  font-size: 28px;
+  bottom: 5px;
+  left: 5px;
+}
+
+main .btnPay {
+  font-size: 20px;
+  width: 140px;
+  color: black;
+  height: 60px;
+  border-radius: 20px;
+}
 
 main .coffees .box {
   width: 15rem;
