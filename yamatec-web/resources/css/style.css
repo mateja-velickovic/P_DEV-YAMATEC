@@ -6,9 +6,12 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-image: url("../images/coffeeBackground.png");
+  height: 100vh;
 }
+
 :root {
   --main-color: #4f3420;
   --hover-color: #ffebca;
@@ -45,13 +48,59 @@ nav ul li a:hover {
 }
 
 main {
-  width: 70%;
+  width: 100%;
+  display: flex;
 }
 
 main .coffees {
   display: flex;
   grid-template-columns: repeat(4, 0.3fr);
   display: grid;
+  width: 65%;
+}
+
+main .basketSide {
+  display: grid;
+  width: 35%;
+  background-color: rgb(179, 179, 179);
+
+}
+
+main .basket {
+  width: 90%;
+  height: 90%;
+  background-color: red;
+  border-radius: 75px;
+  margin: auto;
+  text-align: center;
+}
+
+main .basketTitle {
+  font-size: 65px;
+  text-align: center;
+}
+
+main .selection {
+  position: relative;
+  background-color: green;
+  width: 80%;
+  height: 77%;
+  margin: auto;
+}
+
+main .totalPrice {
+  position: absolute;
+  font-size: 28px;
+  bottom: 5px;
+  left: 5px;
+}
+
+main .btnPay {
+  font-size: 20px;
+  width: 140px;
+  color: black;
+  height: 60px;
+  border-radius: 20px;
 }
 
 main .coffees .box {
