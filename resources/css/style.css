@@ -9,7 +9,9 @@
 
 body {
   background-image: url("../images/coffeeBackground.png");
+  width: 100%;
   height: 100vh;
+  background-size: 100%;
 }
 
 :root {
@@ -62,37 +64,46 @@ main .coffees {
 main .basketSide {
   display: grid;
   width: 35%;
-  background-color: rgb(179, 179, 179);
-
+  background-color: rgba(241, 174, 119, 0.363);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 main .basket {
   width: 90%;
   height: 90%;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0);
   border-radius: 75px;
   margin: auto;
   text-align: center;
+
 }
 
 main .basketTitle {
-  font-size: 65px;
+  font-size: 43px;
   text-align: center;
+  color: var(--brown-color);
+  font-weight: 1000;
+
 }
 
 main .selection {
   position: relative;
-  background-color: green;
-  width: 80%;
+  background-color: rgba(255, 255, 255, 0.397);
+  width: 95%;
   height: 77%;
   margin: auto;
+  border-radius: 28px;
+  box-shadow: rgba(48, 48, 48, 0.61) 3px 3px 6px 0px inset, rgba(63, 63, 63, 0.63) -3px -3px 6px 1px inset;
 }
 
 main .totalPrice {
   position: absolute;
-  font-size: 28px;
+  font-size: 40px;
   bottom: 5px;
-  left: 5px;
+  left: 20px;
+  color: var(--brown-color);
+  font-weight: 1000;
+
 }
 
 main .btnPay {
@@ -101,6 +112,14 @@ main .btnPay {
   color: black;
   height: 60px;
   border-radius: 20px;
+  margin-top: 20px;
+  background-color: var(--button-color);
+  color: white;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+  font-weight: 800;
+
 }
 
 main .coffees .box {
